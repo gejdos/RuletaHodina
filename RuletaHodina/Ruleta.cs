@@ -6,9 +6,13 @@ using System.Threading.Tasks;
 
 namespace RuletaHodina
 {
-    class Hrac
+    class Ruleta
     {
-        public int Bank;
+        public Hrac Hrac;
+        public HraciStol HraciStol = new HraciStol();
         
+
+
+
     }
 }

@@ -45,6 +45,7 @@
     <Compile Include="Hrac.cs" />
     <Compile Include="HraciePole.cs" />
     <Compile Include="HraciStol.cs" />
+    <Compile Include="Ruleta.cs" />
     <Compile Include="Stavka.cs" />
     <Compile Include="TypStavky.cs" />
     <Compile Include="VlastnostiPolicka.cs" />
