@@ -20,9 +20,7 @@ namespace RuletaHodina
             for (int i = 0; i < rozmiestnenieFarieb.Length; i++)
             {
                 HraciePolicka[i].Farba = rozmiestnenieFarieb[i];
-
-
-
+                                
             }
 
         }

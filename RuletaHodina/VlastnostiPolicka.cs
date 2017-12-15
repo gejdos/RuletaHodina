@@ -22,6 +22,7 @@ namespace RuletaHodina
 
     public enum Rad
     {
+        ziadny,
         prvy,
         druhy,
         treti
