@@ -12,8 +12,16 @@ namespace RuletaHodina
 
         public HraciStol()
         {
-            char[] rozmiestnenieFarieb = new char[37] { 'n', 'r', 'b', 'r', 'b', 'r', 'b', 'r', 'b', 'r', 'b', 'b', 'r', 'b', 'r', 'b', 'r', 'b', 'r', 'r', 'b', 'r', 'b', 'r', 'b', 'r', 'b', 'r', 'b', 'b', 'r', 'b', 'r', 'b', 'r', 'b', 'r' };
+            Farba[] rozmiestnenieFarieb = new Farba[37] { Farba.zelena, Farba.cervena, Farba.cierna, Farba.cervena, Farba.cierna, Farba.cervena, Farba.cierna,
+                Farba.cervena, Farba.cierna, Farba.cervena, Farba.cierna, Farba.cierna, Farba.cervena, Farba.cierna, Farba.cervena, Farba.cierna, Farba.cervena,
+                Farba.cierna, Farba.cervena, Farba.cervena, Farba.cierna, Farba.cervena, Farba.cierna, Farba.cervena, Farba.cierna, Farba.cervena, Farba.cierna,
+                Farba.cervena, Farba.cierna, Farba.cierna, Farba.cervena, Farba.cierna, Farba.cervena, Farba.cierna, Farba.cervena, Farba.cierna, Farba.cervena };
 
+            for (int i = 0; i < rozmiestnenieFarieb.Length; i++)
+            {
+                HraciePolicka[i].Farba = rozmiestnenieFarieb[i];
+
+            }
 
         }
     }
