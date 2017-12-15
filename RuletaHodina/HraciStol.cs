@@ -38,8 +38,8 @@ namespace RuletaHodina
         private Rad vratRad(int cislo)
         {
             if (cislo == 0) return Rad.ziadny;
-            else if (cislo == 1 || cislo - 1 % 3 == 0) return Rad.prvy;
-            else if (cislo == 2 || cislo - 2 % 3 == 0) return Rad.druhy;
+            if (cislo == 1 || cislo - 1 % 3 == 0) return Rad.prvy;
+            if (cislo == 2 || cislo - 2 % 3 == 0) return Rad.druhy;
             else return Rad.treti;
             
         }
