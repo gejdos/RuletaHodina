@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Hrac.cs" />
     <Compile Include="HraciePole.cs" />
     <Compile Include="HraciStol.cs" />
     <Compile Include="Stavka.cs" />
