@@ -29,9 +29,14 @@ namespace RuletaHodina
 
     enum Rozsah
     {
+        ziadny,
         R1_12,
         R13_24,
-        R25_36
+        R25_36,
+        R1_18,
+        R19_36
     }
+
+
       
 }

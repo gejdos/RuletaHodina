@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace RuletaHodina
 {
-    class Program
+    class HraciePole
     {
-        static void Main(string[] args)
-        {
-            
-        }
+
     }
 }
