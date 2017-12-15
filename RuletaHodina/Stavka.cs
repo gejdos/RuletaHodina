@@ -8,9 +8,12 @@ namespace RuletaHodina
 {
     public class Stavka
     {
-        public int stavka;
+        public int Ciastka;
+        public TypStavky TypStavky;
         public Farba Farba;
-
+        public Rozsah Rozsah;
+        public Rad Rad;
+        public Parnost Parnost;
 
 
 
