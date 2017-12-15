@@ -6,28 +6,28 @@ using System.Threading.Tasks;
 
 namespace RuletaHodina
 {
-    enum Farba
+    public enum Farba
     {
         zelena,
         cierna,
         cervena
     }
 
-    enum Parnost
+    public enum Parnost
     {
         ziadna,
         parna,
         neparna
     }
 
-    enum Rad
+    public enum Rad
     {
         prvy,
         druhy,
         treti
     }
 
-    enum Rozsah
+    public enum Rozsah
     {
         ziadny,
         R1_12,

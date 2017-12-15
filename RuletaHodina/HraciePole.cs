@@ -8,6 +8,13 @@ namespace RuletaHodina
 {
     class HraciePole
     {
+        public int Cislo;
+        public Farba Farba;
+        public Rozsah Rozsah;
+        public Rad Rad;
+        public Parnost Parnost;
+
+
 
     }
 }
