@@ -10,7 +10,6 @@ namespace RuletaHodina
     {
         public int Cislo;
         public Farba Farba;
-        public Rozsah Rozsah;
         public Rad Rad;
         public Parnost Parnost;
         
