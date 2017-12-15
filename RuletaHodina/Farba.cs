@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 namespace RuletaHodina
 {
-    class Program
+    enum Farba
     {
-        static void Main(string[] args)
-        {
-
-
-        }
+        zelena,
+        cierna,
+        cervena
     }
 }
