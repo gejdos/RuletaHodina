@@ -13,8 +13,6 @@ namespace RuletaHodina
         public Rozsah Rozsah;
         public Rad Rad;
         public Parnost Parnost;
-
-
-
+        
     }
 }

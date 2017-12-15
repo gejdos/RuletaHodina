@@ -8,6 +8,6 @@ namespace RuletaHodina
 {
     class HraciStol
     {
-
+        public HraciePole[] HraciePolicka = new HraciePole[37];
     }
 }
