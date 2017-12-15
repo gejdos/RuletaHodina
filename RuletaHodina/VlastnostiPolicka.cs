@@ -37,7 +37,5 @@ namespace RuletaHodina
         R1_18,
         R19_36
     }
-
-
       
 }

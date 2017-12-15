@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 namespace RuletaHodina
 {
-    public class Stavka
+    public enum TypStavky
     {
-        public int stavka;
-        public Farba Farba;
-
-
-
-
+        NaCislo,
+        NaFarbu,
+        NaRad,
+        NaParnost,
+        NaRozsah
     }
 }
