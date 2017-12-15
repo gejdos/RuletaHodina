@@ -21,6 +21,8 @@ namespace RuletaHodina
             {
                 HraciePolicka[i].Farba = rozmiestnenieFarieb[i];
 
+
+
             }
 
         }
